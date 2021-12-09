@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "746050310896",
+    "project_id": "edu-app-174dc",
+    "storage_bucket": "edu-app-174dc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:746050310896:android:2de4693a33284a71b6a835",
+        "android_client_info": {
+          "package_name": "app.rootfortech.eduapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "746050310896-v6g73iqssvut2h53djsdh0qgdnkjflcj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoaFa5nUJI1GiES1_GmdJHKfwzSuOAHHY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "746050310896-v6g73iqssvut2h53djsdh0qgdnkjflcj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
