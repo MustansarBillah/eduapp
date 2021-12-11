@@ -1,4 +1,5 @@
 import 'package:eduapp/views/HomeScreen.dart';
+import 'package:eduapp/views/login.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
@@ -22,9 +23,9 @@ class MyApp extends StatelessWidget {
 
       debugShowCheckedModeBanner: false,
       title: 'Edu App',
-      theme: ThemeData( brightness: Brightness.dark
+      theme: ThemeData(
       ),
-      home:  HomePage(),
+      home:  HomePage()
     );
   }
 }
