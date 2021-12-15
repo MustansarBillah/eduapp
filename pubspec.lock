@@ -141,20 +141,27 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.2.0"
-  firebase_dynamic_links:
+  firebase_messaging:
     dependency: "direct main"
     description:
-      name: firebase_dynamic_links
+      name: firebase_messaging
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "4.0.2"
-  firebase_dynamic_links_platform_interface:
+    version: "11.2.3"
+  firebase_messaging_platform_interface:
     dependency: transitive
     description:
-      name: firebase_dynamic_links_platform_interface
+      name: firebase_messaging_platform_interface
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.2.0+2"
+    version: "3.1.3"
+  firebase_messaging_web:
+    dependency: transitive
+    description:
+      name: firebase_messaging_web
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "2.2.4"
   flutter:
     dependency: "direct main"
     description: flutter
@@ -205,6 +212,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.6.3"
+  lottie:
+    dependency: "direct main"
+    description:
+      name: lottie
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.2.1"
   matcher:
     dependency: transitive
     description:

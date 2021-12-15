@@ -6,19 +6,15 @@ class CustomList{
   },
     {
       "courseName": "Flutter",
-      "courseImg":"assets/images/D2D.png"
-    },
+      "courseImg": "assets/images/2.png"},
     {
       "courseName": "React",
-      "courseImg":"assets/images/FatalTree.png"
-    },
+      "courseImg": "assets/images/3.png"},
     {
       "courseName": "SSM",
-      "courseImg":"assets/images/1.png"
-    },
+      "courseImg": "assets/images/4.jpg"},
     {
       "courseName": "Graphics",
-      "courseImg":"assets/images/Graphic Novels.png"
-    }
+      "courseImg": "assets/images/1.png"}
   ];
 }

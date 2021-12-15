@@ -1,8 +1,9 @@
-import 'package:eduapp/views/HomeScreen.dart';
+import 'package:eduapp/views/homePage.dart';
 import 'package:eduapp/views/signup.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+
 class LogIn extends StatefulWidget {
   @override
   State<StatefulWidget> createState() => LogInState();
@@ -56,8 +57,10 @@ class LogInState extends State<LogIn> {
                   onPressed: () async {
                     if (_formKey.currentState!.validate()) {
                       signInWithEmail();
-                      Navigator.push(context, MaterialPageRoute(builder: (BuildContext context) => HomePage()
-                      ));
+                      Navigator.pushReplacement(
+                          context,
+                          MaterialPageRoute(
+                              builder: (BuildContext context) => HomePage()));
                     }
                   },
                   child: const Text('Log In'),
